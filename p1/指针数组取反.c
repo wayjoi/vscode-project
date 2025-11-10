@@ -1,9 +1,23 @@
 #include<stdio.h>
+
 int main()
 {
-
+    void inv(int x[],int n);
+    int i,a[10]={3,7,9,11,0,6,7,5,4,2};
+    printf("The Original array:");
+    for(i=0;i<10;i++)
+    {
+        printf("%d ",a[i]);
+    }
+    printf("\n");
+    inv(a,10);
+    for(i=0;i<10;i++)
+    {
+        printf("%d ",a[i]);
+    }
+    printf("\n");
     return 0;
-}
+}//未写完
 
 void inv(int x[],int n)
 {
