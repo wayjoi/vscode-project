@@ -15,9 +15,9 @@ int main()
 /* 你的代码将被嵌在这里 */
 int f( int n )
 {
-    int thenum;
+    
     if(n==1)return 1;
     else if(n==0)return 0;
-    else thenum=f(n-1)+f(n-2);
-    return thenum;
+    else return f(n-1)+f(n-2);
+    
 }
